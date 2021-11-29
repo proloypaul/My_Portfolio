@@ -357,7 +357,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content:"Who with me"
+    content:"What i Create"
 }
 .teams .carousel .card{
     background:#222;
@@ -367,7 +367,7 @@ section .title::after{
     transition:all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background:crimson;
+    background:#320d3e;
 }
 .teams .carousel .card .box{
     display:flex;
@@ -389,11 +389,26 @@ section .title::after{
     width:200px;
     object-fit:cover;
     /* border-radius:50%; */
-    border:5px solid crimson;
+    border:0;
+    border-radius: 5px;
     transition:all 0.3s ease;
 }
-.teams .carousel .card:hover img{
-    border-color:#fff;
+.teams .carousel .card a{
+    text-align:justify;
+    display:inline-block;
+    background:#320d3e;
+    color:#fff;
+    font-size:20px;
+    font-weight:500;
+    padding:10px 30px;
+    margin-top:20px;
+    border-radius:6px;
+    cursor: pointer;
+    border:2px solid #F67280;
+    transition:all 0.3s ease;
+}
+.teams .carousel .card:hover a{
+    background-color: #F67280;
 }
 .owl-dots{
     text-align:center;
