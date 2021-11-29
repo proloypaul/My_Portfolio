@@ -39,7 +39,7 @@ html{
     font-weight:600;
 }
 .navbar .logo a span{
-    color:#F8B195;
+    color: orangered;
     transition:all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -58,7 +58,7 @@ html{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color:#F8B195;
+    color: orangered;
 }
 .navbar.sticky .menu li a:hover{
     color:#fff;
@@ -123,7 +123,7 @@ html{
     margin:5px 0;
 }
 .home .home-content .text-3 span{
-    color:#F67280;
+    color:orangered;
     font-weight:500;
 }
 .home .home-content a{
@@ -134,12 +134,12 @@ html{
     padding:12px 36px;
     margin-top:20px;
     border-radius:6px;
-    border:2px solid #F67280;
+    border:2px solid orangered;
     transition:all 0.3s ease;
 }
 .home .home-content a:hover{
     color:#fff;
-    background:#F67280; /*background:none;*/
+    background:orangered; /*background:none;*/
 }
 /* all similar content styling code */
 section{
@@ -181,14 +181,16 @@ section .title::after{
     bottom:-12px;
     left:50%;
     font-size:20px;
-    color:#320d3e;
+    color: orangered;
     padding:5px;
     background:#fff;
     transform: translateX(-50%);
 }
 
 /* about section styling*/
-
+.about{
+    background-color: #6C5B7B;
+}
 .about .title::after{
     content:"Who i am"
 }
@@ -211,7 +213,7 @@ section .title::after{
     margin-bottom:10px;
 }
 .about .about-content .right .text span{
-    color:#F67280;
+    color: orangered;
 }
 .about .about-content .right p{
     text-align:justify;
@@ -220,17 +222,17 @@ section .title::after{
     text-align:justify;
     display:inline-block;
     background:#320d3e;
-    color:#fff;
+    color: orangered;
     font-size:20px;
     font-weight:500;
     padding:10px 30px;
     margin-top:20px;
     border-radius:6px;
-    border:2px solid #F67280;
+    border:2px solid orangered;
     transition:all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color:#F67280;
+    color: orangered;
     background:none;
 }
 
@@ -258,7 +260,7 @@ section .title::after{
     transition:all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background:crimson;
+    background: #320d3e;
 }
 .services .serv-content .card .box{
     transition:all 0.3s ease;
@@ -268,7 +270,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size:50px;
-    color:crimson;
+    color: orangered;
     transition:color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -281,6 +283,9 @@ section .title::after{
 }
 
 /* skills section styling */
+.skills{
+    background-color: #6C5B7B;
+}
 .skills .title::after{
     content:"what i know"
 }
@@ -298,18 +303,18 @@ section .title::after{
 .skills .skills-content .left a{
     text-align:justify;
     display:inline-block;
-    background:crimson;
-    color:#fff;
+    background: #320d3e;
+    color: orangered;
     font-size:18px;
     font-weight:500;
     padding:8px 16px;
     margin-top:20px;
     border-radius:6px;
-    border:2px solid crimson;
+    border:2px solid orangered;
     transition:all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color:crimson;
+    color: orangered;
     background:none;
 }
 .skills .skills-content .right .bars{
@@ -337,7 +342,7 @@ section .title::after{
     height:100%;
     left:0;
     top:0;
-    background:blueviolet;
+    background: #320d3e;
 }
 .skills .skills-content .right .html::before{
     width:90%;
@@ -386,7 +391,7 @@ section .title::after{
 }
 .teams .carousel .card img{
     height:200px;
-    width:200px;
+    width:150px;
     object-fit:cover;
     /* border-radius:50%; */
     border:0;
@@ -459,7 +464,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size:25px;
-    color:crimson;
+    color: #320d3e;
 }
 .contact .contact-content .info .head{
     font-weight:500;
@@ -509,9 +514,10 @@ section .title::after{
 .contact .right form .button button{
     widows: 100%;
     height:100%;
-    border:2px solid crimson;
-    background:crimson;
-    color:#fff;
+    padding: 5px 10px;
+    border:2px solid orangered;
+    background: #320d3e;
+    color: orangered;
     font-size:20px;
     font-weight:500;
     border-radius:6px;
@@ -519,7 +525,7 @@ section .title::after{
     transition:all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color:crimson;
+    color:orangered;
     background:none;
 }
 
