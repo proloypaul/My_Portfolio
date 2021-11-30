@@ -1,7 +1,7 @@
 .details-container{
     background: #6C5B7B;
     padding: 40px 20px;
-    color: #000000;
+    color: #e6a2a2;
     border: 0;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -30,7 +30,7 @@
 }
 .project-summary li{
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .project-link{
