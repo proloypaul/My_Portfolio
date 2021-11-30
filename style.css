@@ -465,11 +465,10 @@ section .title::after{
     margin-top:20px;
     border-radius:6px;
     cursor: pointer;
-    border:2px solid white;
     transition:all 0.3s ease;
 }
 .teams .carousel .card a i{
-    font-size: 30px;
+    font-size: 20px;
 }
 .teams .carousel .card:hover a{
     background-color: #000000;

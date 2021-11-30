@@ -1,7 +1,7 @@
 .details-container{
     background: #6C5B7B;
     padding: 40px 20px;
-    /* border: 1px solid black */
+    color: #000000;
     border: 0;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -22,14 +22,15 @@
     margin: 15px 0px;
 }
 .tecnology-title{
-    background: orangered;
-    color: white;
+    background: #3BC6B6;
+    color: #6C5B7B;
     padding: 5px 15px;
     border: 0;
     border-radius: 5px;
 }
 .project-summary li{
     padding-bottom: 10px;
+    font-size: 16px;
 }
 
 .project-link{
@@ -38,12 +39,14 @@
     align-items: center;
 }
 .project-link a{
-    background: crimson;
+    background: #3BC6B6;
     padding: 5px 10px;
-    color: white;
+    color: #6C5B7B;
+    font-weight: bold;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
+    text-decoration: none;
 }
 .project-link i{
     font-size: 30px;
