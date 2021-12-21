@@ -302,9 +302,9 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background:#111;
-    content:"What i provide";
+    content:"What i Make";
 }
-.services .serv-content .card{
+/* .services .serv-content .card{
     width:calc(33% - 20px);
     background:#222;
     text-align:center;
@@ -334,7 +334,7 @@ section .title::after{
     font-size:25px;
     font-weight:500;
     margin:10px 0 7px 0;
-}
+} */
 
 /* skills section styling */
 .skills{
